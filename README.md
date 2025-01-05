@@ -1,9 +1,8 @@
-
-## Web Server Port Scanner ##
+# Web Server Port Scanner #
 This repository contains two PowerShell scripts for scanning web server ports across different network scopes. These scripts are useful for network administrators and IT professionals who need to perform port checks on web servers.
 
-# Scripts #
-  # Web.ps1 # 
+## Scripts ##
+  ### Web.ps1 ### 
 This script performs port checks on a list of specified computers for HTTP (80) and HTTPS (443) ports.
 
 Features:
@@ -16,7 +15,7 @@ Usage:
 * Replace %OUTPUT_EXCEL% with the desired path for the output Excel file.
 * Run the script in PowerShell.
 
-  # Web_by_subnet.ps1 #
+  ### Web_by_subnet.ps1 ###
 This script conducts a comprehensive port scan on an entire subnet, focusing on web server ports.
 
 Features:
